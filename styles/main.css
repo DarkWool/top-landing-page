@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    /* || Colors */
+    --header-bg: #2c1f37;
+    --main-textColor: #F9FAF8;
+    --sec-textColor: #E5E7EB;
+    --dark-textColor: #1F2937;
+    --blue-button: #7b38f6;
+
+    /* || Font size */
+    --hero: 48px;
+    --header: 36px;
+    --medium: 24px;
+    --small: 18px;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav, #hero {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/* Nav section */
+header {
+    background-color: var(--header-bg);
+    color: var(--main-textColor);
+    padding: 1.25rem;
+}
+
+nav {
+    margin-bottom: 7rem;
+    gap: 1.75rem;
+}
+
+nav, .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    gap: 1.75rem;
+    font-size: var(--small);
+}
+
+a {
+    color: var(--sec-textColor);
+    text-decoration: none;
+}
+
+#logo {
+    font-size: var(--medium);
+    font-weight: 900;
+}
+
+
+/* || Hero section */
+#hero {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 7rem;
+}
+
+h1 {
+    font-size: var(--hero);
+    font-weight: 900;
+    margin-bottom: .5rem;
+}
+
+.hero-desc {
+    font-size: var(--small);
+    color: var(--sec-textColor);
+    margin-bottom: 1rem;
+    line-height: 20px;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: var(--blue-button);
+    font-weight: 700;
+    padding: .7rem 1.5rem;
+    border-radius: .3rem;
+}
+
+.hero-img-container {
+    max-width: 500px;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
