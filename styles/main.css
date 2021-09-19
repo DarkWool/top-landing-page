@@ -6,7 +6,7 @@
     --main-textColor: #F9FAF8;
     --sec-textColor: #E5E7EB;
     --dark-textColor: #1F2937;
-    --blue-button: #931414;
+    --blue-button: #b70a0a;
 
     /* || Font size */
     --hero: 48px;
@@ -30,9 +30,39 @@ p {
 nav,
 #hero,
 #second-section,
-.quote {
+.quote,
+.flex-center-panel {
     max-width: 950px;
     margin: 0 auto;
+}
+
+
+/* Text styles */
+.desc-text {
+    font-size: var(--small);
+    color: var(--sec-textColor);
+    margin-bottom: 1rem;
+}
+
+
+/* Button General Styles */
+.button {
+    display: inline-block;
+    font-size: var(--small);
+    font-weight: 700;
+    padding: .7rem 1.5rem;
+    border-radius: .3rem;
+}
+
+
+/* Utilities */
+.no-margin {
+    margin-bottom: 0;
+}                    
+
+.margin-center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -85,18 +115,8 @@ h1 {
     margin-bottom: .5rem;
 }
 
-.hero-desc {
-    font-size: var(--small);
-    color: var(--sec-textColor);
-    margin-bottom: 1rem;
-}
-
 .hero-button {
-    display: inline-block;
     background-color: var(--blue-button);
-    font-weight: 700;
-    padding: .7rem 1.5rem;
-    border-radius: .3rem;
 }
 
 .hero-img-container {
@@ -167,4 +187,40 @@ h2 {
     margin: 1rem 0;
     padding-right: 1.5rem;
     color: var(--dark-textColor);
+}
+
+
+/* Call to action section */
+#fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 1.25rem;
+}
+
+.flex-center-panel {
+    background-color: var(--blue-button);
+    color: white;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    gap: 1rem;
+    padding: 3rem 1rem;
+}
+
+.header-panel {
+    font-size: var(--medium);
+    font-weight: 700;
+    line-height: 1.75rem;
+    margin-bottom: .3rem;
+}
+
+.header-panel .desc-text {
+    margin-bottom: 0;
+}
+
+.call-button {
+    border: 3px solid white;
 }
