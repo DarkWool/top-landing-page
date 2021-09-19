@@ -153,6 +153,8 @@ h1 {
     gap: 3rem;
     font-size: var(--small);
     color: var(--dark-textColor);
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .illustration {
