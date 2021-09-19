@@ -2,11 +2,11 @@
 
 :root {
     /* || Colors */
-    --header-bg: #310b0b;
+    --header-bg: #350606;
     --main-textColor: #F9FAF8;
     --sec-textColor: #E5E7EB;
     --dark-textColor: #1F2937;
-    --blue-button: #b70a0a;
+    --red-button: #b70a0a;
 
     /* || Font size */
     --hero: 48px;
@@ -116,7 +116,7 @@ h1 {
 }
 
 .hero-button {
-    background-color: var(--blue-button);
+    background-color: var(--red-button);
 }
 
 .hero-img-container {
@@ -199,7 +199,7 @@ h2 {
 }
 
 .flex-center-panel {
-    background-color: var(--blue-button);
+    background-color: var(--red-button);
     color: white;
     border-radius: .5rem;
     display: flex;
@@ -223,4 +223,18 @@ h2 {
 
 .call-button {
     border: 3px solid white;
+}
+
+
+/* Footer */
+footer {
+    background-color: var(--header-bg);
+    font-size: var(--small);
+    text-align: center;
+    color: white;
+    padding: 3rem 1.25rem;
+}
+
+footer a {
+    font-weight: 700;
 }
