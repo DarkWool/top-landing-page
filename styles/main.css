@@ -52,10 +52,19 @@ nav,
     font-weight: 700;
     padding: .7rem 1.5rem;
     border-radius: .3rem;
+    transition: background-color .1s;
+}
+
+a.button:hover {
+    background-color: #8a0707;
 }
 
 
 /* Utilities */
+em {
+    font-style: italic;
+}
+
 .no-margin {
     margin-bottom: 0;
 }                    
@@ -112,7 +121,7 @@ a {
 h1 {
     font-size: var(--hero);
     font-weight: 900;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
 }
 
 .hero-button {
