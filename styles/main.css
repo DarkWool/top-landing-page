@@ -2,11 +2,11 @@
 
 :root {
     /* || Colors */
-    --header-bg: #350606;
+    --header-bg: #220B0B;
     --main-textColor: #F9FAF8;
     --sec-textColor: #E5E7EB;
     --dark-textColor: #1F2937;
-    --red-button: #b70a0a;
+    --red-button: #B12F2F;
 
     /* || Font size */
     --hero: 48px;
@@ -37,7 +37,7 @@ nav,
 }
 
 
-/* Text styles */
+/* ------------------------- Text styles ------------------------- */
 .desc-text {
     font-size: var(--small);
     color: var(--sec-textColor);
@@ -45,7 +45,7 @@ nav,
 }
 
 
-/* Button General Styles */
+/* ------------------------- Button General Styles ------------------------- */
 .button {
     display: inline-block;
     font-size: var(--small);
@@ -56,11 +56,11 @@ nav,
 }
 
 a.button:hover {
-    background-color: #8a0707;
+    background-color: #861919;
 }
 
 
-/* Utilities */
+/* ------------------------- Utilities ------------------------- */
 em {
     font-style: italic;
 }
@@ -75,7 +75,7 @@ em {
 }
 
 
-/* Nav section */
+/* ------------------------- Nav section ------------------------- */
 header {
     background-color: var(--header-bg);
     color: var(--main-textColor);
@@ -110,7 +110,7 @@ a {
 }
 
 
-/* Hero section */
+/* ------------------------- Hero section ------------------------- */
 #hero {
     display: flex;
     align-items: center;
@@ -139,7 +139,7 @@ h1 {
 }
 
 
-/* Images showcase section */
+/* ------------------------- Images showcase section ------------------------- */
 #second-section {
     display: flex;
     flex-direction: column;
@@ -175,7 +175,7 @@ h2 {
 }
 
 
-/* Quote section */
+/* ------------------------- Quote section ------------------------- */
 #third-section {
     background-color: #E5E7EB;
     padding: 7.5rem 1.25rem;
@@ -199,7 +199,7 @@ h2 {
 }
 
 
-/* Call to action section */
+/* ------------------------- Call to action section ------------------------- */
 #fourth-section {
     display: flex;
     justify-content: center;
@@ -231,11 +231,11 @@ h2 {
 }
 
 .call-button {
-    border: 3px solid white;
+    border: 2px solid white;
 }
 
 
-/* Footer */
+/* ------------------------- Footer ------------------------- */
 footer {
     background-color: var(--header-bg);
     font-size: var(--small);
